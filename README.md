@@ -10,8 +10,7 @@ Developed a comprehensive inventory management application using the MVC (Model-
   * JavaScript (ES6+): For both client-side and server-side scripting, ensuring dynamic and interactive user experiences.
 
 # Architecture:
-
- * Model-View-Controller (MVC) Architecture: Implemented to structure the application into three distinct layers:
+Model-View-Controller (MVC) Architecture: Implemented to structure the application into three distinct layers:
  * Model: Represents the data and business logic. Defined in product.model.js, it handles data retrieval, manipulation, and storage.
  * View: Represents the presentation layer. Managed through EJS templates in the views folder, it renders the HTML content dynamically based on the data provided by the controller.
  * Controller: Manages the application's logic and user input. Defined in product.controller.js, it processes requests, interacts with the model, and updates the view accordingly.
