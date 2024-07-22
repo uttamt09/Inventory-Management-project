@@ -25,9 +25,7 @@ An inventory management application designed to manage and display a list of pro
   
 # Technical Details:
 
-  # Server Setup (index.js):  Configured an Express.js server with middleware for JSON and URL-encoded data. Set up EJS as the view engine and defined routes for displaying products and handling product       
-    submissions.
-    
+  * Server Setup (index.js):  Configured an Express.js server with middleware for JSON and URL-encoded data. Set up EJS as the view engine and defined routes for displaying products and handling product submissions.
   * Product Controller (product.controller.js): Developed controller methods for retrieving and adding products, including input validation and error handling.
   * Product Model (product.model.js): Created a product model class to manage product data, including static methods for retrieving and adding products.
   * Views: Designed EJS templates for rendering the product list and product addition form, integrated with Bootstrap for styling.
