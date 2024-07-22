@@ -4,14 +4,10 @@
 An inventory management application designed to manage and display a list of products. It allows users to add new products with details such as name, description, price, and image URL. The application is built using Express.js for the server-side, EJS for templating, and Bootstrap for styling.
 
 # Technologies Used:
-  # Express.js: 
-    For creating a robust backend server to handle routes and manage application logic.
-  # EJS (Embedded JavaScript Templates): 
-    For rendering dynamic HTML views and managing the layout with reusable templates.
-  # Bootstrap: 
-    A powerful front-end framework for faster and easier web development, providing responsive design capabilities.
-  # JavaScript (ES6+): 
-      For both client-side and server-side scripting, ensuring dynamic and interactive user experiences.
+  * Express.js: For creating a robust backend server to handle routes and manage application logic.
+  * EJS (Embedded JavaScript Templates): For rendering dynamic HTML views and managing the layout with reusable templates.
+  * Bootstrap: A powerful front-end framework for faster and easier web development, providing responsive design capabilities.
+  * JavaScript (ES6+): For both client-side and server-side scripting, ensuring dynamic and interactive user experiences.
 
 # Project Structure:
   * index.js: The entry point of the application.
@@ -29,17 +25,13 @@ An inventory management application designed to manage and display a list of pro
   
 # Technical Details:
 
-  # Server Setup (index.js): 
-    Configured an Express.js server with middleware for JSON and URL-encoded data. Set up EJS as the view engine and defined routes for displaying products and handling product       
+  # Server Setup (index.js):  Configured an Express.js server with middleware for JSON and URL-encoded data. Set up EJS as the view engine and defined routes for displaying products and handling product       
     submissions.
     
-  # Product Controller (product.controller.js): 
-    Developed controller methods for retrieving and adding products, including input validation and error handling.
-  # Product Model (product.model.js): 
-    Created a product model class to manage product data, including static methods for retrieving and adding products.
-  # Views: 
-    Designed EJS templates for rendering the product list and product addition form, integrated with Bootstrap for styling.
-  # Error Handling:
+  * Product Controller (product.controller.js): Developed controller methods for retrieving and adding products, including input validation and error handling.
+  * Product Model (product.model.js): Created a product model class to manage product data, including static methods for retrieving and adding products.
+  * Views: Designed EJS templates for rendering the product list and product addition form, integrated with Bootstrap for styling.
+  * Error Handling:
     * Validated user inputs for product name, price, and image URL to ensure correct data entry.
     * Provided user feedback on form submission errors, such as missing required fields or invalid URL formats.
 
