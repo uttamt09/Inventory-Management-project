@@ -9,6 +9,13 @@ Developed a comprehensive inventory management application using the MVC (Model-
   * Bootstrap: A powerful front-end framework for faster and easier web development, providing responsive design capabilities.
   * JavaScript (ES6+): For both client-side and server-side scripting, ensuring dynamic and interactive user experiences.
 
+# Architecture:
+
+ * Model-View-Controller (MVC) Architecture: Implemented to structure the application into three distinct layers:
+ * Model: Represents the data and business logic. Defined in product.model.js, it handles data retrieval, manipulation, and storage.
+ * View: Represents the presentation layer. Managed through EJS templates in the views folder, it renders the HTML content dynamically based on the data provided by the controller.
+ * Controller: Manages the application's logic and user input. Defined in product.controller.js, it processes requests, interacts with the model, and updates the view accordingly.
+
 # Project Structure:
   * index.js: The entry point of the application.
   * controllers/product.controller.js: Contains the logic for handling product-related routes.
