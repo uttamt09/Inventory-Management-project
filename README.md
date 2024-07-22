@@ -1,7 +1,7 @@
 # Inventory-Management-Project
 
 # Description:
-An inventory management application designed to manage and display a list of products. It allows users to add new products with details such as name, description, price, and image URL. The application is built using Express.js for the server-side, EJS for templating, and Bootstrap for styling.
+Developed a comprehensive inventory management application using the MVC (Model-View-Controller) architecture. This application enables users to manage and view products with features to add new products and display them in a user-friendly manner. The design follows a clear separation of concerns, ensuring maintainability and scalability.
 
 # Technologies Used:
   * Express.js: For creating a robust backend server to handle routes and manage application logic.
