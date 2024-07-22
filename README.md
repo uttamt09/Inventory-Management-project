@@ -32,17 +32,22 @@ Model-View-Controller (MVC) Architecture: Implemented to structure the applicati
 # Technical Details:
 
   * Server Setup (index.js):  Configured an Express.js server with middleware for JSON and URL-encoded data. Set up EJS as the view engine and defined routes for displaying products and handling product submissions.
-  * Product Controller (product.controller.js): Developed controller methods for retrieving and adding products, including input validation and error handling.
-  * Product Model (product.model.js): Created a product model class to manage product data, including static methods for retrieving and adding products.
-  * Views: Designed EJS templates for rendering the product list and product addition form, integrated with Bootstrap for styling.
+  * Controller Layer (product.controller.js): Developed methods to handle product retrieval and addition. Includes validation for user inputs and error handling to manage incorrect data.
+  * Model Layer (product.model.js): Implemented the ProductModel class for managing product data. Includes methods for retrieving all products and adding new ones, maintaining a static list for demonstration purposes.
+  * View Layer (views/):
+    * layout.ejs: Base layout for consistent header and footer across pages.
+    * index.ejs: Template for displaying the product list.
+    * new-product.ejs: Template for the product addition form, including error messages.
   * Error Handling:
-    * Validated user inputs for product name, price, and image URL to ensure correct data entry.
-    * Provided user feedback on form submission errors, such as missing required fields or invalid URL formats.
+    * Validated form inputs to ensure that all required fields are filled and that the price is positive.
+    * Checked the validity of the image URL and displayed error messages for any issues.
+    * Handled invalid data submissions by providing user feedback and re-rendering the form with error details.
 
     
 # Demonstrated Skills:
 
   * Full-Stack Web Development
+  * Implementation of MVC Architecture
   * Backend Development with Express.js
   * Frontend Development with EJS and Bootstrap
   * Error Handling and Input Validation
